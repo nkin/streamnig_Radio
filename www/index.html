@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title></title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+	<meta charset="utf-8">
+		<link rel="stylesheet" href="style-3-ads-1.css">
+	<link rel="stylesheet" href="index-extras-1.css">
+	<style type="text/css">
+	
+		#playcontrols {
+			text-align: center;
+			margin-top: 50px;
+		}
+		#playcontrols #activityindicator, #playcontrols #stopbutton {
+			display: none;
+		}
+		
+		#textpositiondiv {
+			margin-top: 100px;
+		}
+	.img { width: 80px;
+height :80px}
+	</style>
+	<script type="text/javascript" charset="utf-8" src="scripts/html5audio.js"></script>
+  </head>
+  <body>
+ <center>
+<div id="middle">
+<table>
+<tr>
+    <th></th><th></th><th>
+		
+		<div id="playcontrols">
+		  <a href="#" id="playbutton" onClick="onClick="html5audio.play);return false;"><img src="images/playbutton.png" /></a>
+		  <a href="#" id="activityindicator" onClick="onClick="html5audio.stop();return false;"><img src="images/activityindicator.gif" /></a>
+		  <a href="#" id="stopbutton" onClick="onClick="html5audio.stop();return false;"><img src="images/stopbutton.png" /></a>
+	  </div>
+	  <div id="textpositiondiv" style="color:#FFFFFF">Time played: <span id="textposition">stopped</span></div>
+	  <script type="text/javascript">
+		  playButton = document.getElementById('playbutton');
+		  stopButton = document.getElementById('stopbutton');
+		  activityIndicator = document.getElementById('activityindicator');
+		  textPosition = document.getElementById('textposition');
+	  </script>
+		 </th></tr>
+    <tr>
+    <th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" id="playbutton" title="Radio plus Agadir" onClick="html5audio.play('http://91.121.4.107:8000/radio_plus_agadir.mp3');return false;" data-location="http://91.121.4.107:8000/radio_plus_agadir.mp3"><img class="cover" src="images/Radio-plus-Agadir.jpg" alt="Radio Plus Agadir" height="66" width="80"></a>
+				</em>
+			</div>
+			
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Chada FM 100.8" onClick="html5audio.play('http://ice7.infomaniak.ch/chadafm-high.mp3');return false;"><img class="cover" src="images/chada-fm-100-8.png" alt="Chada FM 100.8" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Yabiladi" onClick="html5audio.play('http://www.yabiladi.com:8000/;');return false;"><img class="cover" src="images/radio-yabiladi.png" alt="Radio Yabiladi" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio 2M 93.1" onClick="html5audio.play('http://95.81.155.21/1VGPZoQEJXxmInog_loWTRiKIAgWkC5vANXE=/9033/jet_121413.mp3');return false;"><img class="cover" src="images/radio-2m-93-1.png" alt="Radio 2M 93.1" height="66" width="80"></a>
+				</em>
+			</div>
+			
+			<!-- END RADIO STATION -->
+			</th>
+			<th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Mars 91.2 FM" onClick="html5audio.play('http://radiomars.ice.infomaniak.ch/radiomars-128.mp3');return false;"><img class="cover" src="images/radio-mars-91-2-fm.png" alt="Radio Mars 91.2 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			</tr>
+			<tr>
+            <th>
+			<!-- RADIO STATION -->
+			<div  class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Atlantic Radio 92.5 FM" onClick="html5audio.play('http://68.168.117.130:8000/;');return false;"><img class="cover" src="images/atlantic-radio-92-5-fm.png" alt="Atlantic Radio 92.5 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Med Radio 88.2 FM" onClick="html5audio.play('http://medradio-maroc.ice.infomaniak.ch/medradio-maroc-64.mp3');return false;"><img class="cover" src="images/med-radio-88-2-fm.png" alt="Med Radio 88.2 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Medi 1 99.6 FM" onClick="html5audio.play('http://streaming07.mit.ovea.com/medi1');return false;"><img class="cover" src="images/medi-1-99-6-fm.png" alt="Medi 1 99.6 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			<th>
+			<!-- RADIO STATION -->
+			<div  class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Hit Radio 100.3 FM" onClick="html5audio.play('http://77.67.34.11/HITRADIO_MAROC.mp3');return false;"><img class="cover" src="images/hit-radio-100-3-fm.png" alt="Hit Radio 100.3 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div  class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Cap Radio 90.7 FM" onClick="html5audio.play('http://37.58.75.166:8618/;stream/1 ');return false;"><img class="cover" src="images/cap-radio-90-7-fm.png" alt="Cap Radio 90.7 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			</tr>
+			<tr>
+            <th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Luxe Radio 99.2 FM" onClick="html5audio.play('http://68.168.118.115:8000/;');return false;"><img class="cover" src="images/luxe-radio-99-2-fm.png" alt="Luxe Radio 99.2 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div  class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Al Amazighia 104.6 FM" onClick="html5audio.play('http://95.81.147.21/1VGPcDAEJmEz0QQHnvmNFGNsWj8n98ZW49IE=/9079/jet_143844.mp3');return false;"><img class="cover" src="images/al-amazighia-104-6-fm.png" alt="Al Amazighia 104.6 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			 <th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Aswat 104.3 FM" onClick="html5audio.play('http://broadcaster.infomaniak.ch/aswat-high.mp3');return false;"><img class="cover" src="images/aswat-104-3-fm.png" alt="Aswat 104.3 FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Assadisa FM 96.1" onClick="html5audio.play('http://95.81.147.21/1VGPcQQEJwdp3kh1cFDvwUpb_87XobHAv89A=/9078/jet_143750.mp3');return false;"><img class="cover" src="images/radio-assadisa-fm-96-1.png" alt="Radio Assadisa FM 96.1" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Medina FM" onClick="html5audio.play('http://medinafm.ice.infomaniak.ch/medinafm-64.mp3');return false;"><img class="cover" src="images/radio-medina-fm.png" alt="Radio Medina FM" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			</tr>
+			<tr>
+           <th>					
+			<!-- RADIO STATION -->
+			<div  class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Moroccan Voice Radio" onClick="html5audio.play('http://channel1.moroccanvoice.com:8000/;');return false;"><img class="cover" src="images/moroccan-voice-radio.png" alt="Moroccan Voice Radio" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			<th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Idaa Al Watania" onClick="html5audio.play('http://95.81.155.21/1VGPcogEJ1lj1yKhLgb9LP_4oiLHFioJ4Rs0=/9077/jet_143651.mp3');return false;"><img class="cover" src="images/idaa-al-watania.png" alt="Idaa Al Watania" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Chaine Inter" onClick="html5audio.play('http://95.81.155.21/1VGPcvAEJ9-Ckqxxyd1gyVsYGhQlKqxYbB0k=/9080/jet_144136.mp3');return false;"><img class="cover" src="images/radio-chaine-inter.png" alt="Radio Chaine Inter" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Maroc Music" onClick="html5audio.play('http://streaming.radionomy.com/MarocMusic');return false;"><img class="cover" src="images/radio-maroc-music.png" alt="Radio Maroc Music" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Sawa" onClick="html5audio.play('http://mbn-channel-04.akacast.akamaistream.net/7/26/233453/v1/ibb.akacast.akamaistream.net/mbn_channel_04');return false;"><img class="cover" src="images/radio-sawa.png" alt="Radio Sawa" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			</tr>			
+			<tr>
+            <th>
+			<!-- RADIO STATION -->
+			<div  class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Anwarock" onClick="html5audio.play('http://streaming.radionomy.com/Anwa-rock');return false;"><img class="cover" src="images/radio-anwarock.png" alt="Radio Anwarock" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->			</div>
+			
+			</th><th>
+			
+				
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Plus Marrakech" onClick="html5audio.play('http://91.121.4.107:8000/radio_plus_casablanca.mp3');return false;"><img class="cover" src="images/radio-plus-marrakech.png" alt="Radio Plus Marrakech" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Itma" onClick="html5audio.play('http://streaming.radionomy.com/radio-itma');return false;"><img class="cover" src="images/radio-itma.png" alt="Radio Itma" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Ness Radio" onClick="html5audio.play('http://radio.nessradio.net:8000/nessradio.mp3');return false;"><img class="cover" src="images/ness-radio.png" alt="Ness Radio" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			<th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Monte Carlo Doualiya" onClick="html5audio.play('http://95.81.155.3/montecarlodoualiya/all/montecarlodoualiya-128k.mp3');return false;"><img class="cover" src="images/radio-monte-carlo-doualiya.png" alt="Radio Monte Carlo Doualiya" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			</tr>
+			<tr>
+            <th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Aktab Radio" onClick="html5audio.play('http://sv3.vestaradio.com:4110/;');return false;"><img class="cover" src="images/aktab-radio.png" alt="Aktab Radio" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Only Rai" onClick="html5audio.play('http://91.121.62.121:7100/;');return false;"><img class="cover" src="images/radio-only-rai.png" alt="Radio Only Rai" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Rif Melody Radio" onClick="html5audio.play('http://music.rifmelody.com/script-XwpD451s/Best-Of-Rafroua/Mp3/Azrex%20ejan%20athanjath%20.mp3');return false;"><img class="cover" src="images/rif-melody-radio.png" alt="Rif Melody Radio" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			<th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Planet House" onClick="html5audio.play('http://streaming.radionomy.com/RadionoMiX planthouse');return false;"><img class="cover" src="images/radio-planet-house.png" alt="Radio Planet House" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			
+	
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Marrakech" onClick="html5audio.play('http://www.radio-marrakech.net/radio-marrakech.m3u');return false;"><img class="cover" src="images/radio-marrakech.png" alt="Radio Marrakech" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			</tr>
+			<tr>
+            <th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Air du Mboa" onClick="html5audio.play('http://eu4.fastcast4u.com:5098/;');return false;"><img class="cover" src="images/air-du-mboa.png" alt="Air du Mboa" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Mfm Radio" onClick="html5audio.play('http://radio.mfmradio.ma/mfm.ogg');return false;"><img class="cover" src="images/mfm-radio.png" alt="Mfm Radio" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			<th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Habayiib" onClick="html5audio.play('http://85.214.110.29:8000/;');return false;"><img class="cover" src="images/radio-habayiib.png" alt="Radio Habayiib" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Star Maroc" onClick="html5audio.play('http://streaming.radionomy.com/radiostarmarocfm');return false;"><img class="cover" src="images/radio-star-maroc.png" alt="Radio Star Maroc" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="http://www.radio.co.ma/#marocfan" title="Marocfan" onClick="html5audio.play('http://streaming.radionomy.com/G21');return false;"><img class="cover" src="images/marocfan.png" alt="Marocfan" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			</tr>
+			<tr>
+            <th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Hit Radio Buzz" onClick="html5audio.play('http://77.67.34.11/BUZZ.mp3');return false;"><img class="cover" src="images/hit-radio-buzz.png" alt="Hit Radio Buzz" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			<th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Hit Radio MGHARBA" onClick="html5audio.play('http://63.243.149.5/MGHARBA.mp3');return false;"><img class="cover" src="images/hit-radio-mgharba.png" alt="Hit Radio MGHARBA" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Hit Radio RnB" onClick="html5audio.play('http://77.67.34.21/R_AND_B.mp3');return false;"><img class="cover" src="images/hit-radio-rnb.png" alt="Hit Radio RnB" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Hit Radio Dancefloor " onClick="html5audio.play('http://77.67.34.11/DANCEFLOOR.mp3');return false;"><img class="cover" src="images/hit-radio-dancefloor.png" alt="Hit Radio Dancefloor " height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th><th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Radio Soleil" onClick="html5audio.play('http://95.81.147.3/radiosoleilparis/all/radiosoleilparis.mp3');return false;"><img class="cover" src="images/radio-soleil.png" alt="Radio Soleil" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th></tr>		
+			<tr>
+            <th></th><th></th>
+			<th>
+			<!-- RADIO STATION -->
+			<div class="radiostation boxgrid">
+				<em>
+					<a href="#" title="Izlanzik Radio" onClick="html5audio.play('http://37.187.107.88:8000/;');return false;"><img class="cover" src="images/izlanzik-radio.png" alt="Izlanzik Radio" height="66" width="80"></a>
+				</em>
+			</div>
+			<!-- END RADIO STATION -->
+			</th>
+			<th></th><th></th>
+			</tr>
+			</table>
+			
+					
+		
+	</div>
+
+
+</center>
+
+  </body>
+</html>

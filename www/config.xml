@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.Bouss.Radio_Player"
+version = "1.0.0">
+<name>Moroccan Streaming</name>
+<description> Moroccan Streaming is a basic Radio player that allows you to listen  the Maroccan  radio stations </description>
+<author email="ahmed.boussanane@gmail.com">Ahmed BOUSSANANE<</author>
+
+<access origin="*" />
+<!-- Icons -->
+<icon src="icon.png" width="64" height="64" gap:role="default" />
+
+<!-- Splash Screens -->
+<gap:splash src="splash.png" />
+</widget>
